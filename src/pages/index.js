@@ -41,9 +41,9 @@ const IndexPage = () => {
                 have an impact and are loved by their users.
               </span>
             </section>
-            <section class="productContainer flex">
-              {products.map((p) => (
-                <Product {...p} />
+            <section class="productContainer flex  flex-col sm:flex-row justify-center items-center">
+              {products.map((p, i) => (
+                <Product {...p} index={i} />
               ))}
             </section>
           </div>
