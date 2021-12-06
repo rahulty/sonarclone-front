@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h3 {
+  @apply font-bold text-5xl text-gray-800;
+}
+.h5 {
+  @apply text-gray-800 text-2xl;
+}
+.btnRed {
+  @apply bg-red-600 p-2 font-bold rounded-md text-white;
+}
